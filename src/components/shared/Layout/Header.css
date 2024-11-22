@@ -1,0 +1,34 @@
+.navbar {
+ background: linear-gradient(to right, #e2e6ea, #e6c1b9); /* Light gradient from left to right */
+  padding: 15px 20px; /* Add some padding */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.navbar-brand {
+  font-size: 24px; /* Larger font size for the brand */
+  font-weight: bold; /* Bold font weight */
+  color: #dc3545; /* Red color for the brand */
+}
+
+.nav-link {
+  color: #343a40; /* Dark color for links */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  color: #8e1313; /* Change color on hover */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Bootstrap danger color */
+  border: none; /* Remove border */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.btn-danger:hover {
+  background-color: #8e1313; /* Darker red on hover */
+}
+
+.badge {
+  background-color: #8e1313; /* Secondary badge color */
+}

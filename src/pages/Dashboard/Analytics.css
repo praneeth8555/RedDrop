@@ -1,0 +1,54 @@
+:root {
+  --color-0: #d58987;
+  --color-1: #d27d79;
+  --color-2: #cf716b;
+  --color-3: #cc665d;
+  --color-4: #c85d50;
+  --color-5: #c55343;
+  --color-6: #c24b37;
+  --color-7: #bf432b;
+}
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Exactly 4 cards per row */
+  gap: 20px; /* Space between cards */
+  margin: 30px 80px ;
+  justify-content: center;
+
+}
+
+.card {
+   width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.card-footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  font-size: 1.2rem;
+}
